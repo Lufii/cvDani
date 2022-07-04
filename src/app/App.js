@@ -124,9 +124,9 @@ class Say extends Component {
             return (
                 <div>
                     <h3>Commercial experience</h3>
-                    <p>HTML5, CSS3, JavaScript, jQuery, SQL, regex, media formatting and design, full presentation website design</p>
+                    <p>HTML5, CSS3, JavaScript, TypeScript, Angular, AngularJS, basic Node.js, jQuery, npm, CI, SQL, regex, media formatting and design, full presentation website design</p>
                     <h3>Personal experience</h3>
-                    <p>React, Node, MongoDB, GitHub, heroku, SVG, webmail, Google Apps Script, API development and usage</p>
+                    <p>React, Vue, MongoDB, GitHub, heroku, SVG, webmail, Google Apps Script, API development and usage</p>
                 </div>
             );
         else if (this.props.sayVal === 'hobbies')
@@ -202,21 +202,24 @@ class Say extends Component {
         else if (this.props.sayVal === 'jobhistory')
             return (
                 <div>
-                    <h3>2010 - 2013</h3>
-                    <p>Bachelor's degree in business administration from West University of Timisoara(3 years programme). The second year was spent in Nottingham, UK, via an Erasmus scholarship</p>
+                    <h3>2021 - Onwards</h3>
+                    <p>Web Developer at OPSWAT. Finished a UI facelift and the upgrade to latest Angular. Currently working the UX redesign, revisiting of our 3rd party dependencies, additional features development, and helping with our internship program. Lucky to be surrounded by smart and genuine people.</p>
+                    <h3>2019 - 2021</h3>
+                    <p>Junior Web Developer at OPSWAT. I did UI tweaks, changes, feature development, and helped with the migration from AngularJS to Angular. Because the leadership attracted and shaped great talent, the team is highly efficient and fun to work with.</p>
+                    <h3>2018</h3>
+                    <p>Administrative Assistant at Design Resource(2 months). While the job was unrelated to web development, I used the time off my light schedule, fixed term contract to dive deeper into React, basic Node and basic MongoDB</p>
+                    <h3>2017 - 2018</h3>
+                    <p>Junior Survey Programmer at Toluna(12 months) with HTML, CSS, JavaScript and jQuery. I occasionally took on project-specific requiremens like SQL and browser compatibility work on custom components.
+                        Was SP lead for a multitude of quick-turnaround projects and a handful of long-term studies as well. I loved it, but aimed to transition to a modern javascript framework</p>
+                    <h3>2017</h3>
+                    <p>Returned to my programming roots from highschool and realised I enjoy JavaScript very much. Studied HTML, CSS and JS for a few months before landing my first job in the sector</p>
                     <h3>2012 - 2017</h3>
                     <p>Took time to work on creative projects(music, writing and an unhealthy amount of gaming) while working various jobs including warehouse work, street sales, sales and construction work</p>
                     <h3>2015</h3>
                     <p>Lead Generation Specialist at Lingo24(3 months). An extension of the contract was possible but I was unsure about my desire to continue working in sales</p>
-                    <h3>2017</h3>
-                    <p>Returned to my programming roots from highschool and realised I enjoy JavaScript very much. Studied HTML, CSS and JS for a few months before landing my first job in the sector</p>
-                    <h3>2017 - 2018</h3>
-                    <p>Junior Survey Programmer at Toluna(12 months) with HTML, CSS, JavaScript and jQuery. I occasionally took on project-specific requiremens like SQL and browser compatibility work on custom components.
-                        Was SP lead for a multitude of quick-turnaround projects and a handful of long-term studies as well. I loved it, but aimed to transition to a modern javascript framework</p>
-                    <h3>2018</h3>
-                    <p>Administrative Assistant at Design Resource(2 months). Light schedule, fixed term contract that gave me time and resources to dive deeper into React, basic Node and basic MongoDB</p>
-                    <h3>2019 onwards</h3>
-                    <p>Junior Software Engineer at OPSWAT. Amazing place to work at - my focus is front-end web development on one of our products.</p>
+
+                    <h3>2010 - 2013</h3>
+                    <p>Bachelor's degree in business administration from West University of Timisoara(3 years programme). The second year was spent in Nottingham, UK, via an Erasmus scholarship</p>
                 </div>
             );
         else

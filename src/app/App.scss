@@ -73,23 +73,10 @@ html {
     .left-column {
         max-height: 100vh;
         display: inline-block;
-        max-width: 50%;
         position: relative;
-    }
-
-    .left-column a:link {
-        color: white;
-    }
-
-    .left-column a:hover,
-    a:visited {
-        color: red;
-    }
-
-    .left-column {
         padding: 20px;
         position: fixed;
-        margin-right: 120px;
+        margin-right: 220px;
         overflow: auto;
     }
 
@@ -102,6 +89,15 @@ html {
         display: inline-block;
         position: fixed;
         border-top: none;
+    }
+
+    .left-column a:link {
+        color: white;
+    }
+
+    .left-column a:hover,
+    a:visited {
+        color: red;
     }
 
     .App {
