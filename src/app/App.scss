@@ -15,26 +15,28 @@ body {
     max-width: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
 
-.eyes1,
-.face rect {
-    fill: rgb(255, 255, 255)
-}
+    .eyes1,
+    rect {
+        fill: rgb(255, 255, 255)
+    }
 
-.eyes2 {
-    opacity: 0;
-    fill: none;
-    stroke: white;
-    stroke-width: 15.539;
-}
+    .eyes2 {
+        opacity: 0;
+        fill: none;
+        stroke: white;
+        stroke-width: 15.539;
+    }
 
-.face:hover .eyes2 {
-    opacity: 1;
-}
+    &:hover {
+        .eyes2 {
+            opacity: 1;
+        }
 
-.face:hover .eyes1 {
-    opacity: 0;
+        .eyes1 {
+            opacity: 0;
+        }
+    }
 }
 
 .App,
@@ -42,59 +44,6 @@ body,
 #root,
 html {
     min-height: 100vh;
-}
-
-
-@media only screen and (min-width: 768px) {
-
-    .left-column {
-        display: inline-block;
-        max-width: 50%;
-        position: relative;
-    }
-
-    .left-column a:link {
-        color: white;
-    }
-
-    .left-column a:hover,
-    a:visited {
-        color: red;
-    }
-
-    .left-column {
-        padding: 10px;
-    }
-
-    .right-column {
-        margin: 0 auto;
-        max-width: 50%;
-        border-top: 1px solid white;
-    }
-
-    .right-column {
-        right: 10%;
-        top: 50%;
-
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-
-        display: inline-block;
-        position: fixed;
-        border-top: none;
-
-    }
-
-    .App {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
 }
 
 .active,
@@ -111,7 +60,55 @@ html {
     transition: 0.4s;
 }
 
-.contact img {
-    margin: 4px;
-    max-width: 50px;
+.contact {
+    img {
+        margin: 4px;
+        max-width: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .left-column {
+        max-height: 100vh;
+        display: inline-block;
+        max-width: 50%;
+        position: relative;
+    }
+
+    .left-column a:link {
+        color: white;
+    }
+
+    .left-column a:hover,
+    a:visited {
+        color: red;
+    }
+
+    .left-column {
+        padding: 20px;
+        position: fixed;
+        margin-right: 120px;
+        overflow: auto;
+    }
+
+    .right-column {
+        margin: 0 auto;
+        border-top: 1px solid white;
+        right: 80px;
+        min-width: 140px;
+        max-width: 140px;
+        display: inline-block;
+        position: fixed;
+        border-top: none;
+    }
+
+    .App {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
