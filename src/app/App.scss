@@ -67,10 +67,14 @@ html {
     }
 }
 
+.left-column {
+    padding: 15px;
+}
 
 @media only screen and (min-width: 768px) {
 
     .left-column {
+        max-width: 50%;
         max-height: 100vh;
         display: inline-block;
         position: relative;
@@ -106,5 +110,4 @@ html {
         justify-content: center;
         align-items: center;
     }
-
 }
