@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(20, 20, 20, 255);
+    text-align: center;
+    color: white;
+}
+
+.face {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+
+    margin: 0 auto;
+    max-width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .eyes1,
+    rect {
+        fill: rgb(255, 255, 255)
+    }
+
+    .eyes2 {
+        opacity: 0;
+        fill: none;
+        stroke: white;
+        stroke-width: 15.539;
+    }
+
+    &:hover {
+        .eyes2 {
+            opacity: 1;
+        }
+
+        .eyes1 {
+            opacity: 0;
+        }
+    }
+}
+
+.App,
+body,
+#root,
+html {
+    min-height: 100vh;
+}
+
+.active,
+.accordion:hover,
+#nav p:hover {
+    color: red;
+}
+
+.accordion,
+#nav p {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.contact {
+    img {
+        margin: 4px;
+        max-width: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .left-column {
+        max-height: 100vh;
+        display: inline-block;
+        position: relative;
+        padding: 20px;
+        position: fixed;
+        margin-right: 220px;
+        overflow: auto;
+    }
+
+    .right-column {
+        margin: 0 auto;
+        border-top: 1px solid white;
+        right: 80px;
+        min-width: 140px;
+        max-width: 140px;
+        display: inline-block;
+        position: fixed;
+        border-top: none;
+    }
+
+    .left-column a:link {
+        color: white;
+    }
+
+    .left-column a:hover,
+    a:visited {
+        color: red;
+    }
+
+    .App {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
