@@ -180,7 +180,7 @@ class Say extends Component {
                     <h3>Engulf</h3>
                     <p>Inventory app written to help me keep track of warehouse stock during my brief stay with Design Resource. Two working parts: back-end(Pluck on GitHub) and front-end(Engulf on GitHub)</p>
                     <h3>Back-end</h3>
-                    <p>Written in node+express and hosted on heroku. Coomunicates with a MongoDB hosted on mLab. Has a few API endpoints for simple CRUD operations</p>
+                    <p>Written in node+express and hosted on heroku. Comunicates with a MongoDB hosted on mLab. Has a few API endpoints for simple CRUD operations</p>
                     <h3>Front-end</h3>
                     <p>My first functional react project - straightforward interface for managing stock via CRUD operations. Makes API calls to Pluck(the back-end) via the designated endpoints. The build is currently hosted on GoDaddy</p>
                     <h3>Links</h3>
@@ -209,7 +209,7 @@ class Say extends Component {
                     <h3>2018</h3>
                     <p>Administrative Assistant at Design Resource(2 months). While the job was unrelated to web development, I used the time off my light schedule, fixed term contract to dive deeper into React, basic Node and basic MongoDB</p>
                     <h3>2017 - 2018</h3>
-                    <p>Junior Survey Programmer at Toluna(12 months) with HTML, CSS, JavaScript and jQuery. I occasionally took on project-specific requiremens like SQL and browser compatibility work on custom components.
+                    <p>Junior Survey Programmer at Toluna(12 months) with HTML, CSS, JavaScript and jQuery. I occasionally took on project-specific requirements like SQL and browser compatibility work on custom components.
                         Was SP lead for a multitude of quick-turnaround projects and a handful of long-term studies as well. I loved it, but aimed to transition to a modern javascript framework</p>
                     <h3>2017</h3>
                     <p>Returned to my programming roots from highschool and realised I enjoy JavaScript very much. Studied HTML, CSS and JS for a few months before landing my first job in the sector</p>
